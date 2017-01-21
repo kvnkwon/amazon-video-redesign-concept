@@ -1,0 +1,73 @@
+h1, h3, p {
+  font-family: 'Roboto', sans-serif;
+}
+
+p {
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+.author {
+  font-weight: 300;
+  margin: 0;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 54px;
+  margin-bottom: 16px;
+}
+
+.img-title {
+  font-size: 36px;
+  font-weight: 300;
+  margin-bottom: 16px;
+}
+
+.after-title {
+  font-weight: 700;
+}
+
+.problems-title {
+  font-size: 36px;
+  margin-bottom: 16px;
+  font-weight: 400;
+}
+
+.suppress {
+  color: #7e7e7e;
+}
+
+.goal-content {
+  padding: 0 5em;
+}
+
+.problems {
+  padding: 0 8em;
+  text-align: left;
+}
+
+.problem-details {
+  font-size: 16px;
+}
+
+.problem-header {
+  font-weight: 700;
+  font-size: 21px;
+  margin-top: 21px;
+}
+
+@media (min-width:320px) and (max-width: 480px) {
+  .goal-content {
+    padding: 0;
+    text-align: left;
+  }
+
+  .problems {
+    padding: 0;
+  }
+
+  .problem-details {
+    font-size: 14px;
+  }
+}
